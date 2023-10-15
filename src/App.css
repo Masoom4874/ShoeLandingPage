@@ -2,8 +2,8 @@
   width: 70%;
 }
 
-.my-custom-font-size li {
-  font-size: 18px; /* You can adjust the font size as needed */
+/* .my-custom-font-size li {
+  font-size: 18px; 
 }
 
 .my-custom-font-size li:hover {
@@ -13,7 +13,7 @@
 
 .my-custom-font-size li:active {
   font-weight: bolder;
-}
+} */
 
 .icon-button {
   color: black;
@@ -95,4 +95,13 @@
 
 .scrollable-cards-2::-webkit-scrollbar-button {
   display: none;
+}
+
+/* Add this to your CSS file */
+.active-link {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  cursor: pointer;
 }

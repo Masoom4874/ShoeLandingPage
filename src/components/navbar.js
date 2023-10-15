@@ -3,14 +3,11 @@ import Lottie from "lottie-react";
 import headingimg from "../assets/headingimg.json";
 import { HiMiniShoppingCart } from "react-icons/hi2";
 import { AiOutlineSearch } from "react-icons/ai";
-import "../App.css";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <nav
-      className="navbar navbar-expand-lg bg-transparent py-4"
-      style={{ position: "fixed", width: "100%", top: 0, zIndex: 100 }}
-    >
+    <nav className="navbar navbar-expand-lg navbar-light bg-transparent py-4 fixed-top">
       <div className="container-fluid w-70" style={{ maxHeight: "10vh" }}>
         <button
           className="navbar-toggler"
@@ -31,19 +28,53 @@ const Navbar = () => {
 
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 my-custom-font-size gap-4">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page">
+              <Link
+                activeClass="active active-link"
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="nav-link"
+              >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Product</a>
+              <Link
+                activeClass="active active-link"
+                to="product"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="nav-link"
+              >
+                Product
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link">Shop</a>
+              <Link
+                activeClass="active active-link"
+                to="shop"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="nav-link"
+              >
+                Shop
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Contact</a>
+              <Link
+                activeClass="active active-link"
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="nav-link"
+              >
+                Contact
+              </Link>
             </li>
           </ul>
           <form className="d-flex gap-4">

@@ -14,10 +14,21 @@ function App() {
         }}
       >
         <Navbar />
-        <Homepage />
-        <ProductPage />
-        <ShopPage />
-        <ContactPage />
+        <section id="home">
+          <Homepage />
+        </section>
+
+        <section id="product">
+          <ProductPage />
+        </section>
+
+        <section id="shop">
+          <ShopPage />
+        </section>
+
+        <section id="contact">
+          <ContactPage />
+        </section>
       </div>
     </div>
   );
