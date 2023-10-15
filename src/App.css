@@ -40,3 +40,59 @@
 .card {
   flex: 0 0 auto; /* Prevent cards from growing to fit container */
 }
+
+/* //for second */
+.scrollable-cards-2 {
+  display: flex;
+  overflow-x: scroll;
+  gap: 16px;
+  padding: 16px;
+  /* Additional styling as needed */
+}
+
+.scrollable-cards-2::-webkit-scrollbar {
+  width: 12px; /* Width of the vertical scrollbar */
+}
+
+.scrollable-cards-2::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the thumb */
+  border-radius: 6px; /* Radius of the thumb */
+}
+
+.scrollable-cards-2::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the thumb on hover */
+}
+
+.scrollable-cards-2::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+.scrollable-cards-2::-webkit-scrollbar-button {
+  display: none; /* Hide the scrollbar buttons */
+}
+
+/* For Firefox */
+.scrollable-cards-2 {
+  scrollbar-width: thin;
+}
+
+.scrollable-cards-2::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollable-cards-2::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+.scrollable-cards-2::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.scrollable-cards-2::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scrollable-cards-2::-webkit-scrollbar-button {
+  display: none;
+}

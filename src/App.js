@@ -1,8 +1,9 @@
 import "./App.css";
 import Navbar from "./components/navbar";
-import FeaturePage from "./pages/FeaturePage";
+import ShopPage from "./pages/ShopPage";
 import Homepage from "./pages/Homepage";
 import ProductPage from "./pages/ProductPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Navbar />
         <Homepage />
         <ProductPage />
-        <FeaturePage />
+        <ShopPage />
+        <ContactPage />
       </div>
     </div>
   );
