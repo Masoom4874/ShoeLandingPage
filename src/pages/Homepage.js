@@ -65,21 +65,49 @@ const Homepage = () => {
               </div>
             </div>
             <div className="carousel-item" data-bs-interval={2000}>
-              <img src={shoeimg1} className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
-                </p>
+              <div
+                className="d-flex justify-content-center align-items-center"
+                style={{ height: "85vh" }}
+              >
+                <div style={{ width: "50%" }}>
+                  {" "}
+                  <h4 className="mb-5">Streetwear as per your outfit</h4>
+                  <h1 className="text-light" style={{ fontSize: "3rem" }}>
+                    Representing the best
+                  </h1>
+                  <h1 className="text-light mb-5" style={{ fontSize: "3rem" }}>
+                    combination for your outfit
+                  </h1>
+                  <button type="button" class="btn btn-outline-light">
+                    EXPLORE
+                  </button>
+                </div>
+                <div>
+                  <img src={shoeimg1} alt="" />
+                </div>
               </div>
             </div>
             <div className="carousel-item">
-              <img src={shoeimg1} className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
+              <div
+                className="d-flex justify-content-center align-items-center"
+                style={{ height: "85vh" }}
+              >
+                <div style={{ width: "50%" }}>
+                  {" "}
+                  <h4 className="mb-5">Streetwear as per your outfit</h4>
+                  <h1 className="text-light" style={{ fontSize: "3rem" }}>
+                    Representing the best
+                  </h1>
+                  <h1 className="text-light mb-5" style={{ fontSize: "3rem" }}>
+                    combination for your outfit
+                  </h1>
+                  <button type="button" class="btn btn-outline-light">
+                    EXPLORE
+                  </button>
+                </div>
+                <div>
+                  <img src={shoeimg1} alt="" />
+                </div>
               </div>
             </div>
           </div>
