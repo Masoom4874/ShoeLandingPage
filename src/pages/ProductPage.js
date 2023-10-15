@@ -1,5 +1,8 @@
 import React, { useRef } from "react";
 import shoeimg1 from "../assets/shoeimg1.png";
+import shoeimg2 from "../assets/shoeimg2.avif";
+import shoeimg3 from "../assets/shoeimg3.webp";
+import shoeimg4 from "../assets/shoeimg4.avif";
 
 const ProductPage = () => {
   return (
@@ -31,10 +34,10 @@ const ProductPage = () => {
             <div className="card border-0 " style={{ width: "30%" }}>
               <img src={shoeimg1} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Nike AirMax Pro Runners</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Unmatched cushioning and lightweight support for your daily
+                  runs.
                 </p>
                 <a href="#" className="btn btn-primary">
                   Add to Cart
@@ -45,12 +48,11 @@ const ProductPage = () => {
               className="card border-0 shadow bg-body-tertiary"
               style={{ width: "30%" }}
             >
-              <img src={shoeimg1} className="card-img-top" alt="..." />
+              <img src={shoeimg2} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Nike FlexFit Street Sneakers</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Stylish urban sneakers with all-day comfort and flexibility.
                 </p>
                 <a href="#" className="btn btn-primary">
                   Add to Cart
@@ -60,10 +62,10 @@ const ProductPage = () => {
             <div className="card border-0 " style={{ width: "30%" }}>
               <img src={shoeimg1} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Nike React Infinity Court Shoes</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Supreme stability and cushioning for peak performance on the
+                  court.
                 </p>
                 <a href="#" className="btn btn-primary">
                   Add to Cart
@@ -71,12 +73,11 @@ const ProductPage = () => {
               </div>
             </div>
             <div className="card border-0 " style={{ width: "30%" }}>
-              <img src={shoeimg1} className="card-img-top" alt="..." />
+              <img src={shoeimg4} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Nike SwiftTrail Hiking Boots</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Rugged waterproof boots for conquering the great outdoors.
                 </p>
                 <a href="#" className="btn btn-primary">
                   Add to Cart
