@@ -1,0 +1,42 @@
+.w-70 {
+  width: 70%;
+}
+
+.my-custom-font-size li {
+  font-size: 18px; /* You can adjust the font size as needed */
+}
+
+.my-custom-font-size li:hover {
+  font-weight: bolder;
+  color: white;
+}
+
+.my-custom-font-size li:active {
+  font-weight: bolder;
+}
+
+.icon-button {
+  color: black;
+}
+
+.icon-button:hover {
+  color: lightgreen;
+}
+
+.scrollable-cards {
+  display: flex;
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  gap: 16px; /* Adjust the gap between cards */
+  padding: 16px; /* Add padding to the container */
+  /* Additional styling as needed */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.scrollable-cards::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar in WebKit browsers (e.g., Chrome, Safari) */
+}
+
+.card {
+  flex: 0 0 auto; /* Prevent cards from growing to fit container */
+}
